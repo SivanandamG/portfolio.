@@ -424,6 +424,8 @@ section .title::after{
 .teams .carousel .card .pbtn button{
 
     display: none;
+    color: crimson;
+    text-decoration: none;
     /* margin-left: 20px; */
 }
 .teams .carousel .card:hover .pbtn button:nth-child(2){
@@ -448,8 +450,8 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    /* height: 400px; */
-    width: 330px;
+    height: 200px;
+    width: 100%;
     /* object-fit: cover; */
     border-radius: 5%;
     border: 5px solid crimson;
