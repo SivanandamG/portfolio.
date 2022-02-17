@@ -309,7 +309,7 @@ section .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
-    width: calc(80% - 30px);
+    width: calc(100% - 30px);
 }
 /* .skills .skills-content .column i{
     margin-left: 30px;
