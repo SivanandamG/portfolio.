@@ -394,7 +394,7 @@ section .title::after{
 }
 .teams .carousel .card{
     background: #222;
-    height: 400px;
+    height: 420px;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -423,24 +423,23 @@ section .title::after{
 }
 .teams .carousel .card .pbtn button{
 
-    display: none;
     color: crimson;
-    text-decoration: none;
     /* margin-left: 20px; */
+    text-decoration: none;
+    margin-top: -10px;
 }
-.teams .carousel .card:hover .pbtn button:nth-child(2){
+.teams .pbtn button:nth-child(2){
     border-radius: 5%;
     width: 100px;
     height: 30px;
-    display: block;
     margin-left: 35px;
     background-color:rgb(255, 255, 255) ;
 }
-.teams .carousel .card:hover .pbtn button:nth-child(1){
+.teams .pbtn button:nth-child(1){
     border-radius: 5%;
+    color: #111;
     width: 100px;
     height: 30px;
-    display: block;
     margin-left: 25px;
     background-color:rgb(255, 255, 255) ;
 }
