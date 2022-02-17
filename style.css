@@ -309,8 +309,11 @@ section .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: calc(80% - 30px);
 }
+/* .skills .skills-content .column i{
+    margin-left: 30px;
+} */
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
@@ -338,6 +341,7 @@ section .title::after{
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
+
 .skills .skills-content .right h2{
     margin-bottom: 17px;
     text-align: center;
