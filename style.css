@@ -309,7 +309,7 @@ section .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
-    width: calc(100% - 30px);
+    width: calc(100%);
 }
 /* .skills .skills-content .column i{
     margin-left: 30px;
@@ -397,56 +397,73 @@ section .title::after{
     content: "what I done";
 }
 .teams .carousel .card{
+    width: 80%;
     background: #222;
-    height: 420px;
+    height: 450px;
+    margin-left: 15%;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     /* overflow: hidden; */
-    /* transition: all 0.3s ease; */
+    transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+/* .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* transition: all 0.3s ease; */
-}
+    transition: all 0.3s ease;
+} */
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .pbtn{
+/* .teams .carousel .card .pbtn{
     width: 280px;
     height: 20px;
-    /* border: #fff 3px solid; */
+    border: #fff 3px solid;
     display: flex;
     margin-top: 20px;
+} */
+.teams .carousel .card a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
 }
-.teams .carousel .card .pbtn button{
+.teams .carousel .card a:nth-child(1){
+    padding: 12px 66px;
+ /* width: 200px; */
+}
 
+.teams .carousel .card a:hover{
     color: crimson;
-    /* margin-left: 20px; */
-    text-decoration: none;
-    margin-top: -10px;
+    background: white;
 }
-.teams .pbtn button:nth-child(2){
+
+/* .teams .pbtn button:nth-child(2){
     border-radius: 5%;
     width: 100px;
     height: 30px;
     margin-left: 35px;
     background-color:rgb(255, 255, 255) ;
-}
-.teams .pbtn button:nth-child(1){
+} */
+/* .teams .pbtn button:nth-child(1){
     border-radius: 5%;
     color: #111;
     width: 100px;
     height: 30px;
     margin-left: 25px;
     background-color:rgb(255, 255, 255) ;
-}
+} */
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -593,7 +610,7 @@ section .title::after{
 
 #techstack-icon~p{
     margin-left:43%;
-    /* padding-bottom: 5px; */
+    padding-bottom: 5px;
 }
 .right form .button-area button:hover{
   color: crimson;
@@ -617,6 +634,11 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+    .class-tech{display: none;}
+    .skills-content .right{
+        width: 100%;
+        margin: auto;
+    }
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -629,6 +651,7 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    
     .menu-btn{
         display: block;
         z-index: 999;
@@ -694,6 +717,7 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+   
     .max-width{
         padding: 0 23px;
     }
@@ -709,9 +733,116 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+   /* teams section styling */
+ /* .teams .title::after{
+    content: "what I done";
+} */
+.teams .carousel .card p{
+    width: 100%;
+    font-size: 5px;
+}
+/*
+.teams .carousel .card:hover{
+    background: crimson;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+} */
+/* .teams .carousel .card .pbtn{
+    width: 280px;
+    height: 20px;
+    border: #fff 3px solid;
+    display: flex;
+    margin-top: 20px;
+} */
+.teams .carousel .card a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 5px;
+    padding: 12px 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+ }
+.teams .carousel .card a:nth-child(1){
+    padding: 0px 15px;
+    /* margin-left: 0%; */
+}
+.teams .carousel .card a:nth-child(2){
+    padding: 1px 1px;
+    /* margin-left: 0%; */
 }
 
+/* .teams .carousel .card a:hover{
+    color: crimson;
+    background: white;
+}  */
+
+/* .teams .pbtn button:nth-child(2){
+    border-radius: 5%;
+    width: 100px;
+    height: 30px;
+    margin-left: 35px;
+    background-color:rgb(255, 255, 255) ;
+} */
+/* .teams .pbtn button:nth-child(1){
+    border-radius: 5%;
+    color: #111;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    background-color:rgb(255, 255, 255) ;
+} */
+/* .teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}*/
+}
+
+
 @media (max-width: 500px) {
+    .teams .carousel .card a{
+        display: inline-block;
+        background: crimson;
+        color: #fff;
+        font-size: 5px;
+        padding: 12px 16px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+     }
+    .teams .carousel .card a:nth-child(1){
+        padding: 0px 15px;
+        /* margin-left: 0%; */
+    }
+    .teams .carousel .card a:nth-child(2){
+        padding: 1px 1px;
+        /* margin-left: 0%; */
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
