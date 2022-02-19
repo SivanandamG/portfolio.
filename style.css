@@ -405,11 +405,11 @@ section .title::after{
     content: "what I done";
 }
 .teams .carousel .card{
-    width: auto;
+    width: 60%;
     background: #222;
     color: white;
     height: auto;
-    margin-left: 15%;
+    margin: auto;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -803,7 +803,7 @@ footer span a:hover{
     transition: all 0.3s ease;
  }
 .teams .carousel .card a:nth-child(1){
-    padding: 0px 15px;
+    padding: 0px 20px;
     /* margin-left: 0%; */
 }
 .teams .carousel .card a:nth-child(2){
@@ -864,7 +864,7 @@ footer span a:hover{
         transition: all 0.3s ease;
      }
     .teams .carousel .card a:nth-child(1){
-        padding: 0px 15px;
+        padding: 0px 20px;
         /* margin-left: 0%; */
     }
     .teams .carousel .card a:nth-child(2){
