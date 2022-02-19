@@ -664,7 +664,7 @@ footer span a:hover{
     .skills .right {
         width: 100%;
         display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-columns: 25% 25% 25% 25%;
     }
 
 }
@@ -734,10 +734,9 @@ footer span a:hover{
         margin-bottom: 20px;
     }
    .skills .right {
-        width: 80%;
         margin:auto;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 20% 20% 35% 25%;
         grid-template-rows: 90px 90px;
     }
 }
