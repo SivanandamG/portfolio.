@@ -609,7 +609,7 @@ section .title::after{
 #techstack-icon{
     margin: auto;
     /* margin-top: 10px; */
-    width: 20%;
+    width: auto;
     /* padding-top: 13px; */
     padding-bottom: 30px;
     /* border: 3px solid black; */
