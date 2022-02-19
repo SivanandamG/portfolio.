@@ -605,12 +605,18 @@ section .title::after{
 }
 
 #techstack-icon i{
-    margin-left: 10%;
+    margin: auto;
 }
 
 #techstack-icon~p{
     margin-left:43%;
     padding-bottom: 5px;
+}
+.column i{
+    font-size: 250%; text-align: center; color: black; margin-left: 13%;
+}
+.right i p{
+    font-size: 50%;
 }
 .right form .button-area button:hover{
   color: crimson;
@@ -643,6 +649,7 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+
 }
 
 @media (max-width: 991px) {
@@ -709,10 +716,11 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
+   .skills .right {
+        width: 50%;
+        margin-left: 20%;
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
     }
 }
 
@@ -739,7 +747,7 @@ footer span a:hover{
 } */
 .teams .carousel .card p{
     width: 100%;
-    font-size: 5px;
+    font-size: 15px;
 }
 /*
 .teams .carousel .card:hover{
