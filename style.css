@@ -765,6 +765,10 @@ footer span a:hover{
     width: 100%;
     font-size: 17px;
 }
+.teams .carousel .card #anchor{
+    font-size: 17px;
+}
+
 /*
 .teams .carousel .card:hover{
     background: crimson;
